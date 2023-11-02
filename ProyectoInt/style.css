@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+
+nav {
+    background-color:white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex; 
+    align-items: center; 
+}
+
+.logo img {
+    width: 60px; 
+    margin-right: 10px; 
+}
+
+.menu_central {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.ingresar-registrarse {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
