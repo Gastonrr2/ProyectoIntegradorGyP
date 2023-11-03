@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  margin-right: 10px;
+}
+.login {
+  margin-right: 30px;
+}
+.menu_central {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 30px;
+}
+
+.ingresar-registrarse {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.herocontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.caracteristicascontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+/*display: grid;
+grid-template-columns: (3, 1fr);*/
+}
+.caracteristicasmail {
+}
+.caracteristicasanalytics {
+}
+.caracteristicaspeople {
+}
+.iconos {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  /*text-align: center;*/
+  /*display: flex;*/
+}
