@@ -37,7 +37,7 @@ body{
     display: flex;
     margin: 0;
     padding: 0;
-    color: gray;
+    color: #2A3342;
 }
 
 .menu_central li {
@@ -46,7 +46,7 @@ body{
 
 .menu_central li a {
     text-decoration: none; 
-    color: gray; 
+    color: #2A3342; 
 }
 
 .ingresar-registrarse {
@@ -61,11 +61,11 @@ body{
     text-decoration: none;
     border-radius: 5px;
     margin-left: 10px;
-    background-color: green;
+    background-color: #2AD167;
 }
 
 .login a:first-child {
-    color: gray; 
+    color: #2A3342; 
     text-decoration: none; 
     background-color: white; 
     padding: 5px 10px;
@@ -74,32 +74,41 @@ body{
 
 .titulo h1{
     font-size: 50px;
-    color: grey;
+    color: #2A3342;
 }
 
 .titulo h3{
-    color: grey;
+    color: #2A3342;
 }
 
 .grid_precios{
    display: grid;
-   grid-template-rows: 1fr 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr ;
-   gap: 30px;
+   gap: 50px;
    border-radius: 5px;
-   height: 70rem;
+   height: 30rem;
+   max-width: 110rem;
+   text-align: center;
+   margin-top: 70px;
+  
 }
 
-.grid_1{
-    background-color: red;
+.grid_estilos{
+    background-color: #F7F8F9;
     border-radius: 5px;
+    padding-top: 20px;
+   
 }
 
-.grid_2{
-    background-color: green;
-    border-radius: 5px;
+.title_green{
+    color:#2AD167
 }
-.grid_3{
-    background-color: yellow;
-    border-radius: 5px;
+
+.subprice{
+    font-size: 280%;
+    color: #2A3342;
+}
+
+.title_grey{
+    color: gray;
 }
