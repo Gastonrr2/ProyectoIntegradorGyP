@@ -6,11 +6,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    margin-left: 60px;
+    margin-left: 62px;
     margin-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -112,3 +112,4 @@ body{
 .title_grey{
     color: gray;
 }
+
