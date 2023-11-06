@@ -15,7 +15,7 @@ body{
 
 .logo {
     display: flex;
-    align-items: center;
+    align-items: center; 
     margin-left: -40px;
 }
 
@@ -113,5 +113,27 @@ body{
     color: gray;
 }
 
+.checkmark {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    stroke-width: 4;
+    stroke: white;
+    background:#2AD167;
+    padding: 0px 5px 5px 0px;
+    margin: 5px 5px -6px 10px;
+  }
+
+.button_demo{
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #2AD167;
+    width: 80%;
+    height: 40px;
+    border: none;
+}
 
 
