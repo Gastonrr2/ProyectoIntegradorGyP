@@ -6,22 +6,38 @@ body {
 
 .herocontainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin-right: 30px;
   margin-left: 30px;
 }
-.herotitle{
-  font-size: 70px;
+.herotitle {
+  font-size: 50px;
 }
-
+.leftside{
+  width: 50%;
+}
+.rightside {
+  width: 50%;
+  position: relative;
+}
 .mainimage {
   width: 560px;
-  margin-top: -90px;
+  margin-top: 0px;
   margin-left: 306px;
 }
 
-.herotitle2{
+.circleimage {
+  position: absolute;
+  top: -50px;
+  left: 250px;
+}
+
+.dotsimage {
+  position: absolute;
+}
+
+.herotitle2 {
   font-size: 40px;
   margin-top: 20px;
 }
@@ -61,4 +77,24 @@ body {
   place-items: center;
   /*text-align: center;*/
   /*display: flex;*/
+}
+
+.botondemo {
+ 
+  color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #2AD167;
+    border: none;
+}
+
+.botonreg {
+  color: #2a3342;
+  text-decoration: none;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
 }
