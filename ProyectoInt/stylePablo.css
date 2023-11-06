@@ -14,27 +14,31 @@ body {
 .herotitle {
   font-size: 50px;
 }
-.leftside{
+.leftside {
   width: 50%;
+  margin-left: -20px;
 }
 .rightside {
   width: 50%;
   position: relative;
+  margin-top: 50px;
 }
 .mainimage {
   width: 560px;
   margin-top: 0px;
-  margin-left: 306px;
+  
 }
 
 .circleimage {
   position: absolute;
   top: -50px;
-  left: 250px;
+  left: -50px;
 }
 
 .dotsimage {
   position: absolute;
+  left: 475px;
+  top: 420px;
 }
 
 .herotitle2 {
@@ -45,7 +49,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 .caracteristicasmail {
   text-align: center;
@@ -80,14 +84,13 @@ body {
 }
 
 .botondemo {
- 
   color: white;
-    padding: 5px 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    background-color: #2AD167;
-    border: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: #2ad167;
+  border: none;
 }
 
 .botonreg {
