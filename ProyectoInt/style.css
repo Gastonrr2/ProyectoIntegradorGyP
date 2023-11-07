@@ -91,14 +91,16 @@ body{
    max-width: 110rem;
    text-align: center;
    margin-top: 70px;
-  
+}
+.grid_precios h4{
+    text-align: left;
+    margin-left: 50px;
 }
 
 .grid_estilos{
     background-color: #F7F8F9;
     border-radius: 5px;
     padding-top: 20px;
-   
 }
 
 .title_green{
@@ -167,6 +169,7 @@ body{
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
+    margin-top: 100px;
    
 }
 .menu_footer {
@@ -183,9 +186,9 @@ body{
   
   .menu_footer a {
     text-decoration: none;
-    color: white; 
+    color: #8F9EB2; 
   }
 
   .footer h5{
-    color: white;
+    color: #8F9EB2;
   }

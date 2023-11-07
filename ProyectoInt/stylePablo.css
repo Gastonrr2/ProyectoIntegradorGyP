@@ -6,7 +6,7 @@ body {
 
 .herocontainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin-right: 30px;
   margin-left: 30px;
@@ -16,7 +16,6 @@ body {
   font-size: 50px;
   margin-top: 0px;
   text-align: left;
-
   font-weight: 900;
 }
 .leftside {
