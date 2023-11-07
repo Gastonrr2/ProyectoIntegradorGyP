@@ -6,7 +6,7 @@ body {
 
 .herocontainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin-right: 30px;
   margin-left: 30px;
@@ -86,6 +86,9 @@ body {
   border-radius: 5px;
   display: grid;
   place-items: center;
+}
+.mail-icon {
+  fill: white;
 }
 .buttons {
   margin-left: -10px;
