@@ -1,8 +1,4 @@
-/*@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");*/
-
-/*@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");*/
-
-@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap");
 
 body {
   font-family: "Mulish", sans-serif;
@@ -20,8 +16,8 @@ body {
   font-size: 50px;
   margin-top: 0px;
   text-align: left;
-  font-family: "Mulish", sans-serif;
-  font-weight: bolder;
+
+  font-weight: 900;
 }
 .leftside {
   width: 50%;
