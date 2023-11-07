@@ -86,6 +86,9 @@ body {
   display: grid;
   place-items: center;
 }
+.mail-icon {
+  fill: white;
+}
 .buttons {
   margin-left: -10px;
 }
