@@ -9,7 +9,25 @@
   </head>
   <body>
     <header class="header">
-      <nav>
+      <nav class="mobile-nav">
+        <div class="mobile-logo">
+            <img src="logo-blanco.png" alt="Logo">
+        </div>
+        <div class="mobile-menu-icon">
+            <span>&#9776;</span>
+        </div>
+        <ul class="mobile-menu">
+            <li><a href="#">Producto</a></li>
+            <li><a href="#">Caracteristicas</a></li>
+            <li><a href="#">Precios</a></li>
+            <li><a href="#">Ingresar</a></li>
+            <li><a href="#">Registrarse</a></li>
+        </ul>
+    </nav>
+      <div class="menu_bar">
+        <a href="#" class="bt-menu"><span class="icon-list2"></span>Menu</a>
+      </div>
+      <nav class="des_nav">
         <div class="logo">
           <img src="logo-verde.png" alt="Logo" />
           <p>Flex</p>
@@ -80,7 +98,7 @@
       </div>
       <div class="grid_precios">
         <div class="grid_estilos">
-          <h3 class="title_green"> Precio </h3>
+          <h5 class="title_green"> Precio </h5>
           <h3 class="title_green">Plan Básico</h3>
           <h1 class="subprice"><sup>$</sup> 10/mes</h1>
           <h3 class="title_grey">Facturado anualmente</h3>
@@ -90,11 +108,10 @@
           <h4><svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>Hasta 10 miembros</h4>
           <input  class="button_demo" type="button" value="Solicitar demo" />
           <div></div>
-          
         </div>
 
         <div class="grid_estilos">
-          <h3 class="title_green"> Precio </h3>
+          <h5 class="title_green"> Precio </h3>
           <h3 class="title_green">Plan Freelancer</h3>
           <h1 class="subprice"><sup>$</sup> 99/mes</h1>
           <h3 class="title_grey">Facturado anualmente</h3>
@@ -107,7 +124,7 @@
 
         
         <div class="grid_estilos">
-          <h3 class="title_green"> Precio </h3>
+          <h5 class="title_green"> Precio </h5>
           <h3 class="title_green">Plan empresas</h3>
           <h1 class="subprice"><sup>$</sup> 799/mes</h1>
           <h3 class="title_grey">Facturado anualmente</h3>
@@ -136,7 +153,7 @@
         <li><a href="#">Privacidad</a></li>
       </ul>
       <div>
-        <h5>2022 Flex. Un producto ficticio de Senpai.</h5>
+        <h5>© 2022 Flex. Un producto ficticio de Senpai.</h5>
       </div>
 
 
@@ -148,6 +165,9 @@
     <section class="form_pop">
 
     </section>
+
+    <script src="app.js"></script>
+
   </body>
 </html>
 
