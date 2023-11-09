@@ -4,14 +4,7 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
-.herocontainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 30px;
-  margin-left: 30px;
-  color: #2a3342;
-}
+
 .herotitle {
   font-size: 50px;
   margin-top: 0px;
@@ -19,12 +12,12 @@ body {
   font-weight: 900;
 }
 .leftside {
-  width: 50%;
+  width: 100%;
   margin-left: -20px;
   margin-top: -50px;
 }
 .rightside {
-  width: 50%;
+  width: 100%;
   position: relative;
   margin-top: 50px;
 }
@@ -92,32 +85,9 @@ body {
 .buttons {
   margin-left: -10px;
 }
-.botondemo {
-  color: white;
-  padding: 5px 10px;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-left: 10px;
-  background-color: #2ad167;
-  border: none;
-  width: 200px;
-  height: 50px;
-  font-size: 20px;
-  cursor: pointer;
-}
 
-.botonreg {
-  color: #2a3342;
-  text-decoration: none;
-  background-color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: 1px solid #93a1b6;
-  width: 200px;
-  height: 50px;
-  font-size: 20px;
-  cursor: pointer;
-}
+
+
 .nuevo {
   background-color: #2ad167;
   border-radius: 10px;
