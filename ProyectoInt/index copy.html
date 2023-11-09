@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="stylepablo.css" />
-
+    <link rel="stylesheet" href="styleuni copy.css" />
     <title>Flex</title>
   </head>
   <body>
@@ -15,16 +13,16 @@
         <div class="mobile-logo">
             <img src="logo-blanco.png" alt="Logo">
         </div>
-        <ul class="mobile-menu">
-            <li><a href="#herocontainer">Producto</a></li>
-            <li><a href="#caracteristicascontainer">Caracteristicas</a></li>
-            <li><a href="#precios">Precios</a></li>
-            <li><a href="#">Ingresar</a></li>
-            <li><a href="#">Registrarse</a></li>
-        </ul>
         <div class="mobile-menu-icon">
             <span>&#9776;</span>
         </div>
+        <ul class="mobile-menu">
+            <li><a href="#">Producto</a></li>
+            <li><a href="#">Caracteristicas</a></li>
+            <li><a href="#">Precios</a></li>
+            <li><a href="#">Ingresar</a></li>
+            <li><a href="#">Registrarse</a></li>
+        </ul>
     </nav>
       <div class="menu_bar">
         <a href="#" class="bt-menu"><span class="icon-list2"></span>Menu</a>
@@ -35,12 +33,12 @@
           <p>Flex</p>
         </div>
         <ul class="menu_central">
-          <li><a href="#herocontainer">Producto</a></li>
-          <li><a href="#caracteristicascontainer">Características</a></li>
-          <li><a href="#precios">Precios</a></li>
+          <li><a href="#">Producto</a></li>
+          <li><a href="#">Características</a></li>
+          <li><a href="#">Precios</a></li>
         </ul>
         <div class="login">
-          <a href="#">Ingresar</a>
+          <a id="abrirmodal" href="#">Ingresar</a>
           <a href="#">Registrarse</a>
         </div>
       </nav>
@@ -53,7 +51,7 @@
           </h2>
           <div class="buttons">
             <button class="botondemo">Solicitar demo</button>
-            <button class="botonreg">Registrarse</button>
+            <button id="abrirmodal" class="botonreg">Registrarse</button>
           </div>
         </div>
         <div class="rightside">
@@ -91,7 +89,7 @@
         </p>
       </div>
     </section>
-    <section id="precios" class="precios">
+    <section class="precios">
       <div class="titulo">
         <h1>Precios flexibles que escalan contigo.</h1>
         <h3>
@@ -115,7 +113,8 @@
                 class="checkmark__check"
                 fill="none"
                 d="M14.1 27.2l7.1 7.2 16.7-16.8"
-              /></svg>1GB de almacenamiento
+              /></svg
+            >1GB de almacenamiento
           </h4>
           <h4>
             <svg
@@ -127,7 +126,8 @@
                 class="checkmark__check"
                 fill="none"
                 d="M14.1 27.2l7.1 7.2 16.7-16.8"
-              /></svg>Dashboard completo
+              /></svg
+            >Dashboard completo
           </h4>
           <h4>
             <svg
@@ -139,7 +139,8 @@
                 class="checkmark__check"
                 fill="none"
                 d="M14.1 27.2l7.1 7.2 16.7-16.8"
-              /></svg>Asistencia por correo
+              /></svg
+            >Asistencia por correo
           </h4>
           <h4>
             <svg
@@ -151,7 +152,8 @@
                 class="checkmark__check"
                 fill="none"
                 d="M14.1 27.2l7.1 7.2 16.7-16.8"
-              /></svg>Hasta 10 miembros
+              /></svg
+            >Hasta 10 miembros
           </h4>
           <input class="button_demo" type="button" value="Solicitar demo" />
           <div></div>
@@ -172,7 +174,8 @@
                 class="checkmark__check"
                 fill="none"
                 d="M14.1 27.2l7.1 7.2 16.7-16.8"
-              /></svg>Caracteristicas básicas
+              /></svg
+            >Caracteristicas básicas
           </h4>
           <h4>
             <svg
@@ -184,7 +187,8 @@
                 class="checkmark__check"
                 fill="none"
                 d="M14.1 27.2l7.1 7.2 16.7-16.8"
-              /></svg>Asistencia preferencial
+              /></svg
+            >Asistencia preferencial
           </h4>
           <h4>
             <svg
@@ -196,7 +200,8 @@
                 class="checkmark__check"
                 fill="none"
                 d="M14.1 27.2l7.1 7.2 16.7-16.8"
-              /></svg>100GB de almacenamiento
+              /></svg
+            >100GB de almacenamiento
           </h4>
           <h4>
             <svg
@@ -208,7 +213,8 @@
                 class="checkmark__check"
                 fill="none"
                 d="M14.1 27.2l7.1 7.2 16.7-16.8"
-              /></svg>Hasta 100 miembros
+              /></svg
+            >Hasta 100 miembros
           </h4>
           <input class="button_demo" type="button" value="Solicitar demo" />
         </div>
@@ -228,7 +234,8 @@
                 class="checkmark__check"
                 fill="none"
                 d="M14.1 27.2l7.1 7.2 16.7-16.8"
-              /></svg>Caracteristicas freelancer
+              /></svg
+            >Caracteristicas freelancer
           </h4>
           <h4>
             <svg
@@ -240,7 +247,8 @@
                 class="checkmark__check"
                 fill="none"
                 d="M14.1 27.2l7.1 7.2 16.7-16.8"
-              /></svg>1TB de almacenamiento
+              /></svg
+            >1TB de almacenamiento
           </h4>
           <h4>
             <svg
@@ -291,10 +299,41 @@
       </div>
     </section>
 
+    <section id="form_pop">
+      <span id="cerrarModal" class="cerrar">&times;</span>
+      <div>
+        <div class="textomodal">
+          <img class="logomodal" src="logo-verde.png" alt="" />
+          <h1>Ingresa a tu cuenta</h1>
+          <h2>y empieza a conseguir resultados</h2>
+        </div>
+        <div class="formdiv">
+          <form class="formstyle" action="">
+            <div class="inpcont">
+              <label for="correo">Correo</label>
+              <input id="emailmodal" type="text" />
+              <label for="contraseña">Contraseña</label>
+              <input type="password" />
+            </div>
+            <div class="checkboxarea">
+              <div class="recordarcheck">
+                <input type="checkbox" name="recordar" id="recordarbox" />
+                <label for="recordar">Recordarme</label>
+              </div>
+              <div>
+                <a class="linkcheck" href="">Olvidé mi contraseña</a>
+              </div>
+            </div>
 
-    <section class="form_pop">
-
+            <button class="Ingresar">Ingresar</button>
+          </form>
+          <div class="linkreg">
+            <p>¿Aún no tienes cuenta? <a href="">Registrate</a></p>
+          </div>
+        </div>
+      </div>
     </section>
+   
 
     <script src="app.js"></script>
 
